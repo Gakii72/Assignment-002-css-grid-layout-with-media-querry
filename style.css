@@ -10,19 +10,23 @@ h1{
     text-align: center;
 }
 #LEFTSIDEBAR{
-    border:  solid;
+    border: 0.5px solid;
 }
 main{
-    border: solid;
+    border:0.5px solid;
 }
 
 #RIGHTSIDEBAR{ 
-    border: solid;
+    border: 0.5px solid;
 }
 #BOTTOMBAR{
-    border: solid;
+    border:0.5px solid;
+    
 }
 .contain{
+    border : 0.9px solid;
+    border-bottom: 0.5px;
+    
     display: grid;
     height: 50vh;
     grid-template-columns: auto;
@@ -34,32 +38,53 @@ main{
     "four four four four"
     "five five five five"
     ;
+    
 }
 #one{
     background-color: rgb(206, 206, 31);
     text-align: left;
     grid-area:one ;
-    
+    padding-top: 7px;
+    padding-left: 7px;
+    margin: 0px;
+
+
 }
 #two{
     background-color:rgb(9, 134, 156);
     text-align: left;
     grid-area: two;
+    padding-top: 7px;
+    padding-left: 7px;
+    margin: 0px;
+
 }
 #three{
     background-color: rgb(0, 204, 255);
     text-align: left;
     grid-area: three;
+    padding-top: 7px;
+    padding-left: 7px;
+    margin: 0px;
+
 }
 #four{
     background-color: rgb(75, 116, 113);
     text-align: left;
     grid-area: four;
+    padding-top: 7px;
+    padding-left: 7px;
+    margin: 0px;
+
 }
 #five{
     background-color: rgb(116, 13, 110);
     text-align: left;
     grid-area: five;
+    padding-top: 7px;
+    padding-left: 7px;
+    margin: 0px;
+
 }
 
 
